@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc731994.chunk.css",
+    "main.js": "/static/js/main.91fd2ef4.chunk.js",
+    "main.js.map": "/static/js/main.91fd2ef4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.0d4aee2a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.0d4aee2a.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.cfd6dcda.chunk.js": "/static/js/2.cfd6dcda.chunk.js",
+    "static/js/2.cfd6dcda.chunk.js.map": "/static/js/2.cfd6dcda.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c177eae9cc6fc67620c47555b6d54e09.js": "/precache-manifest.c177eae9cc6fc67620c47555b6d54e09.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.bc731994.chunk.css.map": "/static/css/main.bc731994.chunk.css.map",
+    "static/media/App.css": "/static/media/family-tree.0b480081.png",
+    "static/media/tree.png": "/static/media/tree.cc0fe0a4.png"
+  }
+}

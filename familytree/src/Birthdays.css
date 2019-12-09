@@ -1,0 +1,19 @@
+.upcoming {
+    display: inline-block;
+    max-height: 300px;
+    min-height: 300px;
+    overflow: auto;
+    padding: 20px;
+    background-color: darkgreen;
+    margin: 10px;
+}
+
+.recent {
+    display: inline-block;
+    max-height: 300px;
+    min-height: 300px;
+    overflow: auto;
+    background-color: darkslateblue;
+    padding: 20px;
+    margin: 10px;
+}
