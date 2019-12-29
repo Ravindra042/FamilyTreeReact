@@ -167,3 +167,8 @@ i {
   padding: 20px;
   margin: 10px;
 }
+
+.list_overflow {
+  overflow: auto;
+  height: 550px;
+}

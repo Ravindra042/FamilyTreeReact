@@ -51,14 +51,15 @@ class ListMembers extends Component {
                   <Link to="/familytree/members/new">NEW</Link>
                 </div>
                 </div>
-                <div>
-                  <table className="">
+                <div className="list_overflow">
+                  <table>
                     <thead>
                       <tr>
                         <th>Nick Name</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Birthday</th>
+                        <th></th>
                       </tr>
                     </thead>
                     <tbody>
