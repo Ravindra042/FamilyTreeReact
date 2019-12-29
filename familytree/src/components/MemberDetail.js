@@ -5,8 +5,7 @@ import Member from './Member';
 class MemberDetail extends Component {
     constructor(props) {
         super(props)
-        this.state = {member :{}},
-        backendUrl = "http://34.228.52.192:8080/familytree/"
+        this.state = {member :{}}
     };
 
 
@@ -15,7 +14,7 @@ class MemberDetail extends Component {
       };
 
       fetchMember () {
-        axios.get(`${this.state.backendUrl}member/${this.props.match.params.id}`)
+        axios.get(`http://34.228.52.192:8080/familytree/member/${this.props.match.params.id}`)
           .then(response => {
             console.log(response.data);
             this.setState({member:response.data})
