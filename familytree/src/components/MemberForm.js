@@ -12,7 +12,7 @@ class MemberForm extends Component {
             mothers : [],
             action : "CREATE",
             cancelAction : "CLEAR",
-            backendUrl : "http://localhost:8093/familytree/"
+            backendUrl : "http://34.228.52.192:8080/familytree/"
         }
     }
 

@@ -13,11 +13,11 @@ function About() {
             <h2><Link to="/familytree/about">Harish H N</Link></h2>
             <br/>
             <p>Family Supporters</p>
-            <h2><Link to={`/members/56`}>Mahadevi Babu Desai</Link></h2>
-            <h2><Link to={`/members/62`}>Priyanka Ravindra Desai</Link></h2>
-            <h2><Link to={`/members/63`}>Ojasvi Ravindra Desai</Link></h2>
-            <h2><Link to={`/members/58`}>Malagoud Babu Desai</Link></h2>
-            <h2><Link to={`/members/38`}>Praveen Mahaling Mungurwadi</Link></h2>
+            <h2><Link to={`/familytree/members/56`}>Mahadevi Babu Desai</Link></h2>
+            <h2><Link to={`/familytree/members/62`}>Priyanka Ravindra Desai</Link></h2>
+            <h2><Link to={`/familytree/members/63`}>Ojasvi Ravindra Desai</Link></h2>
+            <h2><Link to={`/familytree/members/58`}>Malagoud Babu Desai</Link></h2>
+            <h2><Link to={`/familytree/members/38`}>Praveen Mahaling Mungurwadi</Link></h2>
         </div>
     )
 }

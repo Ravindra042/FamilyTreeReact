@@ -15,7 +15,7 @@ class Admin extends Component {
             fromMemberAddress : {},
             toMember :{},
             toMembers :[],
-            backendUrl : "http://localhost:8093/familytree/"
+            backendUrl : "http://34.228.52.192:8080/familytree/"
         }
     }
 

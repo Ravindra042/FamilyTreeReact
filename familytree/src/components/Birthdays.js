@@ -12,7 +12,8 @@ export class Birthdays extends Component {
             upcomingBirthdayMembers :[],
             recentBirthdayMembers :[],
             upcomingDays:30,
-            recentDays :30
+            recentDays :30,
+            backendUrl : "http://34.228.52.192:8080/familytree/"
         }
     };
 
@@ -22,7 +23,7 @@ export class Birthdays extends Component {
       };
 
       fetchBirthdayMembers (days, upcoming) {
-        axios.get(`http://localhost:8093/familytree/member/birthdays?days=${days}&upcoming=${upcoming}`)
+        axios.get(`${this.state.backendUrl}member/birthdays?days=${days}&upcoming=${upcoming}`)
           .then(response => {
             console.log(response.data);
             if(upcoming){

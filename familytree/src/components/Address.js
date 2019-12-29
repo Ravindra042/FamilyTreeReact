@@ -13,7 +13,7 @@ class Address extends Component {
              address : this.props.address,
              editMode : 'N',
              memberId : this.props.memberId,
-             backendUrl : "http://localhost:8093/familytree/"
+             backendUrl : "http://34.228.52.192:8080/familytree/"
         }
     }
 

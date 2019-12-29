@@ -8,7 +8,8 @@ class ListMembers extends Component {
         super(props)
         this.state = {
           filterText: '',
-          members :[]
+          members :[],          
+          backendUrl : "http://34.228.52.192:8080/familytree/"
         }
     };
 
@@ -25,7 +26,7 @@ class ListMembers extends Component {
       };
 
       fetchMembers() {
-        axios.get(`http://localhost:8093/familytree/member`)
+        axios.get(`${this.state.backendUrl}member`)
           .then(response => {
             console.log(response.data);
             this.setState({members:response.data})
