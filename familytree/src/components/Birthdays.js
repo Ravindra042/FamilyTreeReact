@@ -3,6 +3,7 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
+import { config } from './Constants'
 
 export class Birthdays extends Component {
 
@@ -13,7 +14,7 @@ export class Birthdays extends Component {
             recentBirthdayMembers :[],
             upcomingDays:30,
             recentDays :30,
-            backendUrl : "http://34.228.52.192:8080/familytree/"
+            backendUrl : config.url.API_URL
         }
     };
 

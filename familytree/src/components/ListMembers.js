@@ -3,13 +3,14 @@ import axios from 'axios';
 import MemberRow from './MemberRow';
 import Search from './Search';
 import { Link, withRouter } from 'react-router-dom';
+import { config } from './Constants'
 class ListMembers extends Component {
     constructor(props) {
         super(props)
         this.state = {
           filterText: '',
           members :[],          
-          backendUrl : "http://34.228.52.192:8080/familytree/"
+          backendUrl : config.url.API_URL
         }
     };
 

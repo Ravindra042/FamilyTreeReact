@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-// import { withRouter } from 'react-router-dom';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faAddressCard, faEdit, faPlus, faCopy } from '@fortawesome/free-solid-svg-icons'
+import { config } from './Constants';
 
 class Admin extends Component {
 
@@ -15,7 +13,7 @@ class Admin extends Component {
             fromMemberAddress : {},
             toMember :{},
             toMembers :[],
-            backendUrl : "http://34.228.52.192:8080/familytree/"
+            backendUrl : config.url.API_URL
         }
     }
 

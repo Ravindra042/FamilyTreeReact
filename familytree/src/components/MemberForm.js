@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import { config } from './Constants';
 
 class MemberForm extends Component {
 
@@ -12,7 +13,7 @@ class MemberForm extends Component {
             mothers : [],
             action : "CREATE",
             cancelAction : "CLEAR",
-            backendUrl : "http://34.228.52.192:8080/familytree/"
+            backendUrl : config.url.API_URL
         }
     }
 

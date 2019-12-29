@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 import Member from './Member';
+import { config } from './Constants';
 
 class MemberDetail extends Component {
     constructor(props) {
         super(props)
         this.state = {member :{}}
     };
-
 
     componentDidMount() {
         this.fetchMember();
